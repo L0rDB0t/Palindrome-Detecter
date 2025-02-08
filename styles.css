@@ -28,6 +28,12 @@ h1 {
   text-align: center;
   margin-bottom: 40px;
   font-style: italic;
+  font-size: 48px; /* Increased font size */
+  font-weight: bold; /* Bold text */
+  text-transform: uppercase; /* Uppercase text */
+  letter-spacing: 2px; /* Spacing between letters */
+  color: var(--light-yellow); /* Unique color */
+  text-shadow: 2px 2px var(--dark-blue); /* Text shadow for a unique effect */
 }
 
 h2 {
@@ -63,6 +69,7 @@ button {
 button:hover {
   background-color: var(--light-yellow);
 }
+
 .parrafo {
   text-align: center;
   display: block;
